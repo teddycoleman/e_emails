@@ -1,9 +1,13 @@
 ### To run: 
 
 -clone the directory
+
 -can run a sample script `node script.js` to search for 'app'
+
 -If you want to reload the index, do: 
+
     -run `tar -xzf enron_mail_20150507.tar.gz` to create directory with all emails
+    
     -update `script.js` to be `new SearchEngine(true)` and it will regenerate the files
 
 ### Methodology: 
