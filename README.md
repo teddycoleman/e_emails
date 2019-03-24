@@ -39,5 +39,7 @@ When the `search` function is called, it runs a regex against all relevant keys 
 ### If I had more time... 
 
 1- Performance improvements to load. I did NOT end up being able to load all emails since it was going too slowly. As such, the files that were uploaded are just for the emails for Jeff Skilling (loaded directory `./maildir/skilling-j`)
+
 2- Search should have many more features. The features include: (a) allowing search on the to/from field or date, (b) returning to the user the sentence where the word appears, (3) adding a scoring mechanism to rank the results, (4) stem/lemmatize the keys and input for better search results.
+
 3- Storage Optimization. My indices get pretty big, so there's definitely room for improving the space management.
