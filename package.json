@@ -1,0 +1,17 @@
+{
+  "name": "pioneer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "search_engine.js",
+  "dependencies": {
+    "async": "^2.6.2",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
