@@ -14,7 +14,7 @@
 
 The main idea was to loop through all the files once and create 2 indices for all the data. 
 
-The first index was for content, where the key is the word found in the email and the value is an array of all email ids where that was located. This is similar(ish) to Solr docValues and this is in the form of:
+The first index was for content, where the key is the word found in the email and the value is an array of all email ids where that was located. This is an inverted index which has a small similarity to Solr docValues (except I'm not storing the number of times it shows up in the doc) and this is in the form of:
 
 ```
 {
